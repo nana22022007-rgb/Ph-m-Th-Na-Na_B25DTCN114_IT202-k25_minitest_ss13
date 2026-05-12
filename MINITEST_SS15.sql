@@ -59,8 +59,8 @@ VALUES
 INSERT grades(student_id,old_score,new_score)
 VALUES 
 	('S02', 7,10),
-    ('S04', 7),
-    ('S05', 4);
+    ('S04', 7,6),
+    ('S05', 4,8);
     
 DELIMITER //
 CREATE TRIGGER tg_check_score
